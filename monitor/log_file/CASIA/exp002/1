@@ -1,0 +1,16 @@
+Training parameters :
+
+model_type - mask generator (feature discriminator with ROI label msk)
+
+loss_weights - {'pixel':1, 'att_percept':1e-2,  'gen':5e-3} ;
+ 
+lr - = 4e-5.
+
+optimizer - = Adam.
+
+epochs - 10001
+
+batch_size - = 6 (OOM error, with batch size 8)
+
+@ Reference : 
+= None

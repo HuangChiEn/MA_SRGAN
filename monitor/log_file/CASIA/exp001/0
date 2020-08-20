@@ -1,0 +1,18 @@
+Training parameters :
+
+model_type - mask generator (DFCN, in att_dis module)
+
+loss_weights - {1};
+ 
+lr - = @.
+
+optimizer - = @.
+
+epochs - 80
+
+batch_size - =
+
+
+
+@ Reference : 
+=
